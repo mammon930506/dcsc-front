@@ -1,0 +1,9 @@
+/unpackage/dist/*
+/unpackage/cache/*
+/unpackage/release/*
+/node_modules/*
+/.hbuilderx/*
+/.idea/*
+deploy.sh
+/node_modules/
+/unpackage/

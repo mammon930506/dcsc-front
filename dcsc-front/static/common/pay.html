@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	</head>
+	<body>
+		正在唤起支付...
+		<script>
+			window.onload=function(){
+				var obj = getUrlValue()
+				var form=document.createElement("form")
+				form.id="pay_form"
+				form.name="pay_form"
+				form.action = decodeURIComponent(obj.actionUrl)
+				form.method = "POST"
+				var input = document.createElement("input")
+				input.type='hidden'
+				input.name = decodeURIComponent(obj.payment) 
+				form.appendChild(input)
+				document.body.appendChild(form)
+				document.pay_form.submit()
+			}
+			
+			function getUrlValue() {
+				var url = window.location.href;
+				var reg = /([^?&=]+)=([^?&=]+)/g,
+					obj = {},
+					str = url;
+				url.replace(reg, function() {
+					obj[arguments[1]] = arguments[2];
+				})
+				return obj
+			}
+		</script>
+	</body>
+</html>

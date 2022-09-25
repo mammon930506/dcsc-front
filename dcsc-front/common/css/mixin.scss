@@ -1,0 +1,11 @@
+
+@mixin wh($width,$height){
+	width:$width;
+	height:$height;
+}
+
+@mixin text($size,$color,$weight:normal){
+	font-size:$size;
+	color:$color;
+	font-weight:$weight;
+}

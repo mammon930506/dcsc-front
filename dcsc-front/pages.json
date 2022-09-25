@@ -1,0 +1,1098 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [{
+			"path": "pages/sys/home/index",
+			"aliasPath": "/",
+			"style": {
+				"navigationBarTitleText": "主页",
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#18181c",
+						"titleColor": "#ffffff"
+					}
+				}
+
+			}
+		},
+		{
+			"path": "pages/sys/login/index",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#18181c",
+						"titleColor": "#ffffff"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/sys/login/code",
+			"style": {
+				"navigationBarTitleText": "验证码",
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#18181c",
+						"titleColor": "#ffffff"
+					}
+				} // 隐藏系统导航栏
+			}
+		},
+		{
+			"path": "pages/sys/login/bind",
+			"style": {
+				"navigationBarTitleText": "绑定",
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#18181c",
+						"titleColor": "#ffffff"
+					}
+				} // 隐藏系统导航栏
+			}
+		},
+		{
+			"path": "pages/sys/login/inviteCode",
+			"style": {
+				"navigationBarTitleText": "邀请码",
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView": "false"
+				} // 隐藏系统导航栏
+			}
+		},
+		{
+			"path": "pages/sys/login/accountLogin",
+			"style": {
+				"navigationBarTitleText": "账号密码登录",
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#18181c",
+						"titleColor": "#ffffff"
+					}
+				} // 隐藏系统导航栏
+			}
+		},
+		{
+			"path": "pages/sys/home/moreNft",
+			"style": {
+				"navigationBarTitleText": "推荐藏品",
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView":  "false"
+				} // 隐藏系统导航栏
+			}
+		},
+		{
+			"path": "pages/sys/home/moreArtist",
+			"style": {
+				"navigationBarTitleText": "推荐艺术家",
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView": "false"
+				} // 隐藏系统导航栏
+			}
+		},
+		{
+			"path": "pages/sys/home/search",
+			"style": {
+				"navigationBarTitleText": "搜索",
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#18181c",
+						"titleColor": "#ffffff"
+					}
+				} // 隐藏系统导航栏
+			}
+		},
+		{
+			"path": "pages/sys/merchandise/list",
+			"style": {
+				"navigationBarTitleText": "商品",
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#18181c",
+						"titleColor": "#ffffff"
+					}
+				} // 隐藏系统导航栏
+			}
+		},
+		{
+			"path": "pages/sys/merchandise/detail",
+			"style": {
+				"navigationBarTitleText": "商品详情",
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView": "false"
+				} // 隐藏系统导航栏
+			}
+		},
+		{
+			"path": "pages/sys/merchandise/artistMain",
+			"style": {
+				"navigationBarTitleText": "艺术家详情",
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView":  "false"
+				} // 隐藏系统导航栏
+			}
+		},
+		{
+			"path": "pages/sys/merchandise/store",
+			"style": {
+				"navigationBarTitleText": "店铺详情",
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView": "false"
+				} // 隐藏系统导航栏
+			}
+		},
+		{
+			"path": "pages/sys/order/submit",
+			"style": {
+				"navigationBarTitleText": "提交订单",
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView": "false"
+				} // 隐藏系统导航栏
+			}
+		},
+		{
+			"path": "pages/sys/order/payNow",
+			"style": {
+				"navigationBarTitleText": "支付",
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView": "false"
+				} // 隐藏系统导航栏
+			}
+		},
+		{
+			"path": "pages/sys/order/payStatus",
+			"style": {
+				"navigationBarTitleText": "支付状态",
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView": "false"
+				} // 隐藏系统导航栏
+			}
+		},
+		{
+			"path": "pages/sys/order/orderDetail",
+			"style": {
+				"navigationBarTitleText": "订单详情",
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView": "false"
+				} // 隐藏系统导航栏
+			}
+		},
+		{
+			"path": "pages/sys/order/list",
+			"style": {
+				"navigationBarTitleText": "全部订单",
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView": "false"
+				} // 隐藏系统导航栏
+			}
+		}, {
+			"path": "pages/sys/mine/index",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView": "false"
+				} // 隐藏系统导航栏	
+			}
+		}, {
+			"path": "pages/sys/mine/relationship",
+			"style": {
+				"navigationBarTitleText": "",
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView": "false"
+				} // 隐藏系统导航栏	
+			}
+		}, {
+			"path": "pages/sys/mine/transaction/myStars",
+			"style": {
+				"navigationBarTitleText": "我的收藏",
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView": "false"
+				} // 隐藏系统导航栏	
+			}
+		}, {
+			"path": "pages/sys/mine/transaction/myPurchases",
+			"style": {
+				"navigationBarTitleText": "我的藏品",
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView": "false"
+				} // 隐藏系统导航栏	
+			}
+		}, {
+			"path": "pages/sys/mine/transaction/myPurchasesShare",
+			"style": {
+				"navigationBarTitleText": "藏品详情",
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView": "false"
+				} // 隐藏系统导航栏	
+			}
+		}, {
+			"path": "pages/sys/mine/doInvite",
+			"style": {
+				"navigationBarTitleText": "邀请有礼",
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView": "false"
+				} // 隐藏系统导航栏	
+			}
+		}, {
+			"path": "pages/sys/mine/myInvitedUser",
+			"style": {
+				"navigationBarTitleText": "我的邀请",
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView": "false"
+				} // 隐藏系统导航栏	
+			}
+		}, {
+			"path": "pages/sys/mine/myInvitedOrder",
+			"style": {
+				"navigationBarTitleText": "邀请订单",
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView": "false"
+				} // 隐藏系统导航栏	
+			}
+		}, {
+			"path": "pages/sys/mine/store/mySold",
+			"style": {
+				"navigationBarTitleText": "销售订单",
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView": "false"
+				} // 隐藏系统导航栏	
+			}
+		}, {
+			"path": "pages/sys/mine/store/apply",
+			"style": {
+				"navigationBarTitleText": "申请开店",
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView": "false"
+				} // 隐藏系统导航栏	
+			}
+		}, {
+			"path": "pages/sys/mine/store/myStore",
+			"style": {
+				"navigationBarTitleText": "我的店铺",
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView": "false"
+				} // 隐藏系统导航栏	
+			}
+		}, {
+			"path": "pages/sys/mine/store/publishNormal",
+			"style": {
+				"navigationBarTitleText": "发布藏品",
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView": "false"
+				} // 隐藏系统导航栏	
+			}
+		}, {
+			"path": "pages/sys/mine/auth/authenticate",
+			"style": {
+				"navigationBarTitleText": "实名认证",
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView": "false"
+				} // 隐藏系统导航栏	
+			}
+		}, {
+			"path": "pages/sys/mine/auth/authStatus",
+			"style": {
+				"navigationBarTitleText": "认证结果",
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView": "false"
+				} // 隐藏系统导航栏	
+			}
+		}, {
+			"path": "pages/sys/mine/fund/index",
+			"style": {
+				"navigationBarTitleText": "资金管理",
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView": "false"
+				} // 隐藏系统导航栏	
+			}
+		}, {
+			"path": "pages/sys/mine/fund/withdrawForm",
+			"style": {
+				"navigationBarTitleText": "提现",
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView": "false"
+				} // 隐藏系统导航栏	
+			}
+		}, {
+			"path": "pages/sys/mine/fund/withdrawList",
+			"style": {
+				"navigationBarTitleText": "提现明细",
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView": "false"
+				} // 隐藏系统导航栏	
+			}
+		}, {
+			"path": "pages/sys/mine/fund/incomeList",
+			"style": {
+				"navigationBarTitleText": "收入明细",
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView": "false"
+				} // 隐藏系统导航栏	
+			}
+		}, {
+			"path": "pages/sys/mine/fund/allList",
+			"style": {
+				"navigationBarTitleText": "账户明细",
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView": "false"
+				} // 隐藏系统导航栏	
+			}
+		}, {
+			"path": "pages/sys/mine/fund/toIncomeList",
+			"style": {
+				"navigationBarTitleText": "待入账明细",
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView": "false"
+				} // 隐藏系统导航栏	
+			}
+		}, {
+			"path": "pages/sys/mine/consumerCare",
+			"style": {
+				"navigationBarTitleText": "联系客服",
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView": "false"
+				} // 隐藏系统导航栏	
+			}
+		}, {
+			"path": "pages/sys/mine/aboutUs",
+			"style": {
+				"navigationBarTitleText": "关于我们",
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView": "false"
+				} // 隐藏系统导航栏	
+			}
+		}, {
+			"path": "pages/sys/building/index",
+			"style": {
+				"navigationBarTitleText": "敬请期待",
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView": "false"
+				} // 隐藏系统导航栏	
+			}
+		}, {
+			"path": "pages/sys/home/richText",
+			"style": {
+				"navigationBarTitleText": "banner详情",
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView": "false"
+				} // 隐藏系统导航栏	
+			}
+		}, {
+			"path": "pages/sys/sns/index",
+			"style": {
+				"navigationBarTitleText": "社区",
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#18181c",
+						"titleColor": "#ffffff"
+					}
+				} // 隐藏系统导航栏	
+			},
+			"usingComponents": {}
+		}, {
+			"path": "pages/sys/sns/topicList",
+			"style": {
+				"navigationBarTitleText": "话题广场",
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView": "false"
+				} // 隐藏系统导航栏	
+			}
+		}, {
+			"path": "pages/sys/sns/topicDetail",
+			"style": {
+				"navigationBarTitleText": "话题详情",
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView": "false"
+				} // 隐藏系统导航栏	
+			}
+		}, {
+			"path": "pages/sys/sns/publishPost",
+			"style": {
+				"navigationBarTitleText": "发布笔记",
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView": "false"
+				} // 隐藏系统导航栏	
+			}
+		}, {
+			"path": "pages/sys/sns/postDetail",
+			"style": {
+				"navigationBarTitleText": "笔记详情",
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView": "false"
+				} // 隐藏系统导航栏	
+			}
+		}, {
+			"path": "pages/common/payWebview",
+			"style": {
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView": "false"
+				}
+			}
+		}, {
+			"path": "pages/common/authWebview",
+			"style": {
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView": "false"
+				}
+			}
+		},
+		{
+			"path": "pages/sys/rank/collection",
+			"style": {
+				"navigationBarTitleText": "藏品排行榜",
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView": "false"
+				} // 隐藏系统导航栏
+			}
+		}, {
+			"path": "pages/sys/rank/artists",
+			"style": {
+				"navigationBarTitleText": "艺术家排行榜",
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView": "false"
+				} // 隐藏系统导航栏
+			}
+		}, {
+			"path": "pages/sys/rank/preference",
+			"style": {
+				"navigationBarTitleText": "偏好设置",
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView": "false"
+				} // 隐藏系统导航栏
+			}
+
+		}, {
+			"path": "pages/sys/mine/userInfo/myBaseOptions",
+			"style": {
+				"navigationBarTitleText": "个人信息",
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView": "false"
+				} // 隐藏系统导航栏
+			}
+
+		}, {
+			"path": "pages/sys/mine/userInfo/myQRCode",
+			"style": {
+				"navigationBarTitleText": "二维码",
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView": "false"
+				} // 隐藏系统导航栏
+			}
+
+		}, {
+			"path": "pages/sys/mine/userInfo/updateNickName",
+			"style": {
+				"navigationBarTitleText": "编辑昵称",
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView": "false"
+				} // 隐藏系统导航栏
+			}
+
+		}, {
+			"path": "pages/sys/mine/userInfo/updateTags",
+			"style": {
+				"navigationBarTitleText": "编辑标签",
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView": "false"
+				} // 隐藏系统导航栏
+			}
+
+		}, {
+			"path": "pages/sys/mine/userInfo/briefIntroduction",
+			"style": {
+				"navigationBarTitleText": "编辑简介",
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView": "false"
+				} // 隐藏系统导航栏
+			}
+
+		}, {
+			"path": "pages/sys/mine/userInfo/schools",
+			"style": {
+				"navigationBarTitleText": "选择学校",
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView": "false"
+				} // 隐藏系统导航栏
+			}
+
+		}, {
+			"path": "pages/sys/mine/userInfo/updateAdress",
+			"style": {
+				"navigationBarTitleText": "",
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView": "false"
+				},
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/sys/mine/forgetPw/forgetPw",
+			"style": {
+				"navigationBarTitleText": "",
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView": "false"
+				},
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/sys/mine/browseHistory",
+			"style": {
+				"navigationBarTitleText": "最近浏览",
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView": "false"
+				},
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/sys/mine/forgetPw/resetPw",
+			"style": {
+				"navigationBarTitleText": "",
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView": "false"
+				},
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/sys/mine/forgetPw/verifyCode",
+			"style": {
+				"navigationBarTitleText": "",
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView": "false"
+				},
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/sys/mine/forgetPw/verifyIdentity",
+			"style": {
+				"navigationBarTitleText": "",
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView": "false"
+				},
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/sys/mine/forgetPw/verifyType",
+			"style": {
+				"navigationBarTitleText": "",
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView": "false"
+				},
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/sys/mine/updatePw/updatePw",
+			"style": {
+				"navigationBarTitleText": "",
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView": "false"
+				},
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/sys/mine/updatePw/verifySnsCode",
+			"style": {
+				"navigationBarTitleText": "",
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView": "false"
+				},
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/sys/mine/updatePw/resetPw",
+			"style": {
+				"navigationBarTitleText": "",
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView": "false"
+				},
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/sys/sns/copyWriteList",
+			"style": {
+				"navigationBarTitleText": "",
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView": "false"
+				},
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/sys/sns/publishShare",
+			"style": {
+				"navigationBarTitleText": "",
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView": "false"
+				},
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/sys/mine/broker/update",
+			"style": {
+				"navigationBarTitleText": "我的等级",
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView": "false"
+				},
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/sys/mine/broker/rankArtist",
+			"style": {
+				"navigationBarTitleText": "艺术家排行榜",
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView": "false"
+				},
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/sys/mine/broker/rankNft",
+			"style": {
+				"navigationBarTitleText": "藏品排行榜",
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView": "false"
+				},
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/im/TUI-Conversation/conversation",
+			"style": {
+				"navigationBarTitleText": "消息",
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#18181c",
+						"titleColor": "#ffffff"
+					}
+				},
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/sys/mine/team/index",
+			"style": {
+				"navigationBarTitleText": "我的团队",
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#18181c",
+						"titleColor": "#ffffff"
+					}
+				},
+				"enablePullDownRefresh": false
+			}
+		},{
+			"path": "pages/sys/mine/suggestion",
+			"style": {
+				"navigationBarTitleText": "意见反馈",
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#18181c",
+						"titleColor": "#ffffff"
+					}
+				},
+				"enablePullDownRefresh": false
+			}
+		},{
+			"path": "pages/sys/mine/setting/index",
+			"style": {
+				"navigationBarTitleText": "设置",
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#18181c",
+						"titleColor": "#ffffff"
+					}
+				},
+				"enablePullDownRefresh": false
+			}
+		},{
+			"path": "pages/sys/mine/setting/inventory",
+			"style": {
+				"navigationBarTitleText": "个人信息手机清单",
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#18181c",
+						"titleColor": "#ffffff"
+					}
+				},
+				"enablePullDownRefresh": false
+			}
+		},{
+			"path": "pages/im/TUI-Chat/chat",
+			"style": {
+				"navigationBarTitleText": "聊天",
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#18181c",
+						"titleColor": "#ffffff"
+					}
+				},
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/sys/mine/team/index",
+			"style": {
+				"navigationBarTitleText": "我的团队",
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#18181c",
+						"titleColor": "#ffffff"
+					}
+				},
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/sys/mine/team/directTeam",
+			"style": {
+				"navigationBarTitleText": "",
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#18181c",
+						"titleColor": "#ffffff"
+					}
+				},
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/sys/mine/team/indirectTeam",
+			"style": {
+				"navigationBarTitleText": "",
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#18181c",
+						"titleColor": "#ffffff"
+					}
+				},
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/sys/mine/team/activeAuthor",
+			"style": {
+				"navigationBarTitleText": "",
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#18181c",
+						"titleColor": "#ffffff"
+					}
+				},
+				"enablePullDownRefresh": false
+			}
+
+		},{
+			"path": "pages/sys/mine/team/activeAuthorRank",
+			"style": {
+				"navigationBarTitleText": "",
+				"h5": {
+					"titleNView": "false"
+				},
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#18181c",
+						"titleColor": "#ffffff"
+					}
+				},
+				"enablePullDownRefresh": false
+			}
+
+		}
+		],
+		"subPackages": [
+
+		],
+		"preloadRule": {
+
+		},
+		"globalStyle": {
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "Aidex",
+			"navigationBarBackgroundColor": "#18181c",
+			"onReachBottomDistance": 150,
+			"backgroundColorTop": "#18181c",
+			"backgroundColorBottom": "#18181c",
+			"backgroundColor": "#18181c",
+			"backgroundTextStyle": "light",
+			"disableScroll":true
+		},
+		"tabBar": {
+			"backgroundColor": "#18181c",
+			"borderStyle": "white",
+			"selectedColor": "white",
+			"height": "60px",
+			"list": [{
+					"text": "首页",
+					"pagePath": "pages/sys/home/index",
+					"iconPath": "static/common/img/index/bottom/Home.png",
+					"selectedIconPath": "static/common/img/index/bottom/Home-B.png"
+				},
+				{
+					"text": "社区",
+					"pagePath": "pages/sys/sns/index",
+					"iconPath": "static/common/img/index/bottom/chat.png",
+					"selectedIconPath": "static/common/img/index/bottom/chat-B.png"
+				},
+				{
+					"text": "商品",
+					"pagePath": "pages/sys/merchandise/list",
+					"iconPath": "static/common/img/index/bottom/Bag.png",
+					"selectedIconPath": "static/common/img/index/bottom/Bag-B.png"
+				},
+				{
+					"text": "我的",
+					"pagePath": "pages/sys/mine/index",
+					"iconPath": "static/common/img/index/bottom/Profile.png",
+					"selectedIconPath": "static/common/img/index/bottom/Profile-B.png"
+				}
+			]
+		}
+	}
